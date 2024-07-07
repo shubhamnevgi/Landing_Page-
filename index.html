@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <title>Responsive Landing Page in HTML CSS and JavaScript</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+
+          <img src="img.png" alt="" />
+          Tours&Travels
+
+        </div>
+        <nav>
+          <div class="btn">
+            <i class="fa fa-times close-btn"></i>
+          </div>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </nav>
+        <div class="btn">
+          <i class="fa fa-bars menu-btn"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="home">
+    <img
+      src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    <div class="container">
+      <div class="content">
+        <h2>Tour Your Dream</h2>
+        <h2>destination with</h2>
+        <h2>Travel.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          sed, officia quae eum iusto ratione autem eius minus, nisi
+          laboriosam id ullam aliquam sunt deserunt, magni natus maiores
+          placeat perferendis.
+        </p>
+        <button>Explore More</button>
+        <div class="social_icons">
+          <i class="fa fa-brands fa-facebook"></i>
+          <i class="fa fa-brands fa-twitter"></i>
+          <i class="fa fa-brands fa-instagram"></i>
+          <i class="fa fa-brands fa-pinterest"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="about">
+      <div class="about-container">
+        <div class="about-content">
+          <h2>About Us</h2>
+          <p>
+            Welcome to Tours & Travels, your number one source for all things travel. 
+            We're dedicated to giving you the very best of travel experiences, 
+            with a focus on reliability, customer service, and uniqueness.
+          </p>
+          <p>
+            Founded in 2024 by John Doe, Tours & Travels has come a long way from its beginnings. 
+            When John first started out, his passion for providing the best travel services drove 
+            him to do intense research, and gave him the impetus to turn hard work and inspiration 
+            into a booming travel agency. We now serve customers all over the world, and are thrilled 
+            to be a part of the wing of the travel industry.
+          </p>
+          <p>
+            We hope you enjoy our services as much as we enjoy offering them to you. 
+            If you have any questions or comments, please don't hesitate to contact us.
+          </p>
+          <p>
+            Sincerely,<br>
+            John Doe, Founder
+          </p>
+        </div>
+      </div>
+  </section>
+
+  <hr>
+  
+  <section id="services">
+      <div class="service-container">
+        <div class="services-content">
+          <h2>Our Services</h2>
+          <div class="service-cards">
+            <div class="card">
+              <i class="fa fa-plane"></i>
+              <h3>Flight Booking</h3>
+              <p>We offer competitive prices on flight bookings to various destinations worldwide.</p>
+            </div>
+            <div class="card">
+              <i class="fa fa-hotel"></i>
+              <h3>Hotel Reservations</h3>
+              <p>Book the best hotels with us, ensuring comfort and luxury at affordable rates.</p>
+            </div>
+            <div class="card">
+              <i class="fa fa-car"></i>
+              <h3>Car Rentals</h3>
+              <p>Rent a car from us to explore your destination with ease and convenience.</p>
+            </div>
+            <div class="card">
+              <i class="fa fa-map"></i>
+              <h3>Tour Packages</h3>
+              <p>Choose from a variety of tour packages that suit your interests and budget.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <hr>
+  
+  <section id="contact">
+    <div class="contact-container">
+      <div class="contact-content">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Reach out to us through any of the following ways.</p>
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fa fa-phone"></i>
+            <h3>Phone</h3>
+            <p>+123 456 7890</p>
+          </div>
+          <div class="info-item">
+            <i class="fa fa-envelope"></i>
+            <h3>Email</h3>
+            <p>info@toursandtravels.com</p>
+          </div>
+          <div class="info-item">
+            <i class="fa fa-map-marker-alt"></i>
+            <h3>Address</h3>
+            <p>123 Travel Street, Adventure City, World</p>
+          </div>
+        </div>
+        <form action="submit_form" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="img.png" alt="Logo" />
+          Tours&Travels
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fa fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-brands fa-pinterest"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Tours&Travels. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
